@@ -2,41 +2,49 @@
     {
         "id":"1",
         "title":"අනතුරු ඇඟවීමේ සලකුණු",
-        "image":"images/Categories/road_sign_categories/1.png"
+        "image":"images/Categories/road_sign_categories/1.png",
+        "navigating":"WarningSigns"
     },
     {
         "id":"2",
         "title":"නියාමන සලකුණු",
-        "image":"images/Categories/road_sign_categories/2.png"
+        "image":"images/Categories/road_sign_categories/2.png",
+        "navigating":""
     },
     {
         "id":"3",
         "title":"මඟපෙන්වීමී තොරතුරු සලකුණු",
-        "image":"images/Categories/road_sign_categories/3.png"
+        "image":"images/Categories/road_sign_categories/3.png",
+        "navigating":""
     },
     {
         "id":"4",
         "title":"විවිධ සලකුණු",
-        "image":"images/Categories/road_sign_categories/4.png"
+        "image":"images/Categories/road_sign_categories/4.png",
+        "navigating":""
     },
     {
         "id":"5",
         "title":"මාර්ග ලකුණු කිරීම්",
-        "image":"images/Categories/road_sign_categories/5.png"
+        "image":"images/Categories/road_sign_categories/5.png",
+        "navigating":""
     },
     {
         "id":"6",
         "title":"රථ වාහන ආලෝක සංඥා",
-        "image":"images/Categories/road_sign_categories/6.png"
+        "image":"images/Categories/road_sign_categories/6.png",
+        "navigating":""
     },
     {
         "id":"7",
         "title":"රථ වාහන පාලන සංඥා",
-        "image":"images/Categories/road_sign_categories/7.png"
+        "image":"images/Categories/road_sign_categories/7.png",
+        "navigating":""
     },
     {
         "id":"8",
         "title":"අමතර",
-        "image":"images/Categories/road_sign_categories/8.png"
+        "image":"images/Categories/road_sign_categories/8.png",
+        "navigating":""
     }
 ]

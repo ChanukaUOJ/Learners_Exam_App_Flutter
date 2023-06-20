@@ -22,8 +22,8 @@ class _CategoriesState extends State<Categories> {
 
     return Center(
       child: Column(
-        mainAxisSize: MainAxisSize.min,
-        mainAxisAlignment: MainAxisAlignment.center,
+        //mainAxisSize: MainAxisSize.min,
+        // /mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
             "Categories",
@@ -46,34 +46,49 @@ class _CategoriesState extends State<Categories> {
               crossAxisSpacing: 10,
               mainAxisSpacing: 10,
               crossAxisCount: 2,
-              children: const [
-                Categorymodel(
-                  img: 'images/png/bridge.png',
-                  textEnglish: "Road Signs",
-                  textSinahala: "(මාර්ග සංඥා)",
-                  color: Colors.white,
-                  screen: RoadSignBase(),
+              children: [
+                InkWell(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const RoadSignBase(),
+                      ),
+                    );
+                  },
+                  child: const Categorymodel(
+                    img: 'images/png/bridge.png',
+                    textEnglish: "Road Signs",
+                    textSinahala: "(මාර්ග සංඥා)",
+                    color: Colors.white,
+                  ),
                 ),
-                Categorymodel(
-                  img: 'images/png/pen.png',
-                  textEnglish: "MCQ",
-                  textSinahala: "(බහුවරණ ප්‍රශ්ණ)",
-                  color: Colors.white,
-                  screen: RoadSignBase(),
+                InkWell(
+                  onTap: () {},
+                  child: const Categorymodel(
+                    img: 'images/png/pen.png',
+                    textEnglish: "MCQ",
+                    textSinahala: "(බහුවරණ ප්‍රශ්ණ)",
+                    color: Colors.white,
+                  ),
                 ),
-                Categorymodel(
-                  img: 'images/png/modelpapers.png',
-                  textEnglish: "Model Papers",
-                  textSinahala: "(ආදර්ශ ප්‍රශ්ණ)",
-                  color: Colors.white,
-                  screen: RoadSignBase(),
+                InkWell(
+                  onTap: () {},
+                  child: const Categorymodel(
+                    img: 'images/png/modelpapers.png',
+                    textEnglish: "Model Papers",
+                    textSinahala: "(ආදර්ශ ප්‍රශ්ණ)",
+                    color: Colors.white,
+                  ),
                 ),
-                Categorymodel(
-                  img: 'images/png/supportus.png',
-                  textEnglish: "Support Us!",
-                  textSinahala: "(උදව් කරන්න)",
-                  color: Color.fromARGB(255, 255, 238, 177),
-                  screen: RoadSignBase(),
+                InkWell(
+                  onTap: () {},
+                  child: const Categorymodel(
+                    img: 'images/png/supportus.png',
+                    textEnglish: "Support Us!",
+                    textSinahala: "(උදව් කරන්න)",
+                    color: Color.fromARGB(255, 255, 238, 177),
+                  ),
                 )
               ],
             ),
@@ -81,6 +96,9 @@ class _CategoriesState extends State<Categories> {
           ElevatedButtonModified(
             text: "ඉවත්වන්න",
             moveBack: back,
+          ),
+          const SizedBox(
+            height: 100,
           ),
         ],
       ),

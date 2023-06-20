@@ -1,0 +1,390 @@
+[
+    {
+        "index": "1",
+        "id": "dws-01",
+        "warningTitle": "වම් පැත්තට වංගුව ඉදිරියෙනි.",
+        "warningDescription": "මාර්ගයේ වමට තියුණු වංගුව ඇති ස්ථානයක් ඉදිරියෙනි.",
+        "warningImg":"images/png/warning_signs/dws1.png"
+      },
+      {
+        "index": "2",
+        "id": "dws-02",
+        "warningTitle": "දකුණු පැත්තට වංගුව ඉදිරියෙනි.",
+        "warningDescription": "මාර්ගයේ දකුණට තියුණු වංගුව ඇති ස්ථානයක් ඉදිරියෙනි.",
+        "warningImg":"images/png/warning_signs/dws2.png"
+      },
+      {
+        "index": "3",
+        "id": "dws-03",
+        "warningTitle": "වම් පැත්තට ද්විත්ව වංගුව ඉදිරියෙනි.",
+        "warningDescription": "මාර්ගයක වංගු දෙකක් එකිනෙකට ඉතා සමීපයෙන් පළමුවැන්න වම් පැත්තට ද දෙවැන්න දකුණු පැත්තට ද පිහිටි ස්ථානයක්.",
+        "warningImg":"images/png/warning_signs/dws3.png"
+
+      },
+      {
+        "index": "4",
+        "id": "dws-04",
+        "warningTitle": "දකුණු පැත්තට ද්විත්ව වංගුව ඉදිරියෙනි.",
+        "warningDescription": "මාර්ගයේ වංගු දෙකක් එකිනෙකට ඉතා සමීපයෙන් පළමුවැන්න දකුණු පැත්තට ද දෙවැන්න වම් පැත්තට ද පිහිටි ස්ථානයක් ඉදිරියෙනි.",
+        "warningImg":"images/png/warning_signs/dws4.png"
+      },
+      {
+        "index": "5",
+        "id": "dws-05",
+        "warningTitle": "දකුණු පැත්තට වැලමිට වංගුව ඉදිරියෙනි.",
+        "warningDescription": "මාර්ගයේ  දකුණු පැත්තට ඉතා තියුණු වැලමිට වංගුවක් පිහිටි ස්ථානයක් ඉදිරියෙනි.",
+        "warningImg":"images/png/warning_signs/dws5.png"
+      },
+      {
+        "index": "6",
+        "id": "dws-06",
+        "warningTitle": "වම් පැත්තට වැලමිට වංගුව ඉදිරියෙනි.",
+        "warningDescription": "මාර්ගයේ  වම් පැත්තට ඉතා තියුණු වැලමිට වංගුවක් පිහිටි ස්ථානයක් ඉදිරියෙනි.",
+        "warningImg":"images/png/warning_signs/dws6.png"
+
+      },
+      {
+        "index": "7",
+        "id": "dws-07",
+        "warningTitle": "ද්විත්ව රථ මාර්ගය අවසානය ඉදිරියෙනි.",
+        "warningDescription": "මාර්ගයක ද්විත්ව රථ මාර්ගයේ අවසානය ඉදිරියෙනි.",
+        "warningImg":"images/png/warning_signs/dws7.png"
+      },
+      {
+        "index": "8",
+        "id": "dws-08",
+        "warningTitle": "ද්විත්ව රථ මාර්ගය ආරම්භය ඉදිරියෙනි.",
+        "warningDescription": "මාර්ගයක ද්විත්ව රථ මාර්ගයේ ඇරඹුම් ස්ථානය ඉදිරියෙනි.",
+        "warningImg":"images/png/warning_signs/dws8.png"
+      },
+      {
+        "index": "9",
+        "id": "dws-09",
+        "warningTitle": "ඉදිරියේ දී මාර්ගය පටුය.",
+        "warningDescription": "මාර්ගයේ පටුව පිහිටි ස්ථානයක් ඉදිරියෙනි.",
+        "warningImg":"images/png/warning_signs/dws9.png"
+      },
+      {
+        "index": "10",
+        "id": "dws-10",
+        "warningTitle": "මාර්ගයේ වම්පස පටු විම ඉදිරියෙනි.",
+        "warningDescription": "මාර්ගයේ වම්පස පටු ස්ථානයක් ඉදිරියෙනි.",
+        "warningImg":"images/png/warning_signs/dws10.png"
+      },
+      {
+        "index": "11",
+        "id": "dws-11",
+        "warningTitle": "මාර්ගයේ දකුණුපස පටු විම ඉදිරියෙනි.",
+        "warningDescription": "මාර්ගයේ දකුණුපස පටු ස්ථානයක් ඉදිරියෙනි.",
+        "warningImg":"images/png/warning_signs/dws11.png"
+      },
+      {
+        "index": "12",
+        "id": "dws-12",
+        "warningTitle": "එකිනෙක හරහා ගමන් කරන මාර්ගය ඉදිරියෙනි.",
+        "warningDescription": "එකිනෙක ඡේදනය වී බෙදී යන සේ මාර්ගයන් දෙකකින් යුත් මංසන්ධියක් ඉදිරියෙනි.",
+        "warningImg":"images/png/warning_signs/dws12.png"
+      },
+      {
+        "index": "13",
+        "id": "dws-13",
+        "warningTitle": "පළවැනි පැති මාර්ගය වම් පැත්තට විහිදෙන විසම සන්ධිය ඉදිරියෙනි.",
+        "warningDescription": "පැති මාර්ගයන් දෙකක් එකිනෙකට ආසන්නව පළමුවැන්න වම් පැත්තට ද, දෙවැන්න දකුණු පැත්තට ද ප්‍රධාන මාර්ගය ඡේදනය වන ප්‍රධාන මාර්ගයේ පිහිටි විසම සන්ධියක් සහිත ස්ථානයක්.",
+        "warningImg":"images/png/warning_signs/dws13.png"
+      },
+      {
+        "index": "14",
+        "id": "dws-14",
+        "warningTitle": "පළවැනි පැති මාර්ගය දකුණු පැත්තට විහිදෙන විසම සන්ධිය ඉදිරියෙනි.",
+        "warningDescription": "පැති මාර්ගයන් දෙකක් එකිනෙකට ආසන්නව පළමුවැන්න දකුණු පැත්තට ද, දෙවැන්න වම් පැත්තට ද ප්‍රධාන මාර්ගය ඡේදනය වන ප්‍රධාන මාර්ගයේ පිහිටි විසම සන්ධියක් සහිත ස්ථානයක්.",
+        "warningImg":"images/png/warning_signs/dws14.png"
+      },
+      {
+        "index": "15",
+        "id": "dws-15",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws15.png"
+      },
+      {
+        "index": "16",
+        "id": "dws-16",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws16.png"
+      },
+      {
+        "index": "17",
+        "id": "dws-17",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws17.png"
+      },
+      {
+        "index": "18",
+        "id": "dws-18",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws18.png"
+      },
+      {
+        "index": "19",
+        "id": "dws-19",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws19.png"
+      },
+      {
+        "index": "20",
+        "id": "dws-20",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws20.png"
+      },
+      {
+        "index": "21",
+        "id": "dws-21",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws21.png"
+      },
+      {
+        "index": "22",
+        "id": "dws-22",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws22.png"
+      },
+      {
+        "index": "23",
+        "id": "dws-23",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws23.png"
+      },
+      {
+        "index": "24",
+        "id": "dws-24",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws24.png"
+      },
+      {
+        "index": "25",
+        "id": "dws-25",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws25.png"
+      },
+      {
+        "index": "26",
+        "id": "dws-26",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws26.png"
+      },
+      {
+        "index": "27",
+        "id": "dws-27",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws27.png"
+      },
+      {
+        "index": "28",
+        "id": "dws-28",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws28.png"
+      },
+      {
+        "index": "29",
+        "id": "dws-29",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws29.png"
+      },
+      {
+        "index": "30",
+        "id": "dws-30",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws30.png"
+      },
+      {
+        "index": "31",
+        "id": "dws-31",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws31.png"
+      },
+      {
+        "index": "32",
+        "id": "dws-32",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws32.png"
+      },
+      {
+        "index": "33",
+        "id": "dws-33",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws33.png"
+      },
+      {
+        "index": "34",
+        "id": "dws-34",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws34.png"
+      },
+      {
+        "index": "35",
+        "id": "dws-35",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws35.png"
+      },
+      {
+        "index": "36",
+        "id": "dws-36",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws36.png"
+      },
+      {
+        "index": "37",
+        "id": "dws-37",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws37.png"
+      },
+      {
+        "index": "38",
+        "id": "dws-38",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws38.png"
+      },
+      {
+        "index": "39",
+        "id": "dws-39",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws39.png"
+      },
+      {
+        "index": "40",
+        "id": "dws-40",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws40.png"
+      },
+      {
+        "index": "41",
+        "id": "dws-41",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws41.png"
+      },
+      {
+        "index": "42",
+        "id": "dws-42",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws42.png"
+      },
+      {
+        "index": "43",
+        "id": "dws-43",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws43.png"
+      },
+      {
+        "index": "44",
+        "id": "dws-44",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws44.png"
+      },
+      {
+        "index": "45",
+        "id": "dws-45",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws45.png"
+      },
+      {
+        "index": "46",
+        "id": "dws-46",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws46.png"
+      },
+      {
+        "index": "47",
+        "id": "dws-47",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws47.png"
+      },
+      {
+        "index": "48",
+        "id": "dws-48",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws48.png"
+      },
+      {
+        "index": "49",
+        "id": "dws-49",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws49.png"
+      },
+      {
+        "index": "50",
+        "id": "dws-50",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws50.png"
+      },
+      {
+        "index": "51",
+        "id": "dws-51",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/dws51.png"
+      },
+      {
+        "index": "52",
+        "id": "apd-01",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/apd1.png"
+      },
+      {
+        "index": "53",
+        "id": "apd-02",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/apd2.png"
+      },
+      {
+        "index": "54",
+        "id": "apd-03",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/apd3.png"
+      },
+      {
+        "index": "55",
+        "id": "apd-04",
+        "warningTitle": "",
+        "warningDescription": "",
+        "warningImg":"images/png/warning_signs/apd4.png"
+      }
+    
+]

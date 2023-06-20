@@ -18,45 +18,47 @@ class SecondScreen extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      backgroundColor: Colors.white,
-      body: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-        Lottie.asset(
-          "images/main_app_images/json/firstscreen.json",
-          width: 320,
-        ),
-        const SizedBox(
-          height: 30,
-        ),
-        ElevatedButtonModified(
-          moveBack: enterButton,
-          text: "ඇතුල්වන්න",
-        ),
-        const SizedBox(
-          height: 8,
-        ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const Text(
-              "Get Started!",
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Lottie.asset(
+            "images/main_app_images/json/firstscreen.json",
+            width: 320,
+          ),
+          const SizedBox(
+            height: 30,
+          ),
+          ElevatedButtonModified(
+            moveBack: enterButton,
+            text: "ඇතුල්වන්න",
+          ),
+          const SizedBox(
+            height: 8,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Text(
+                "Get Started!",
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-            ),
-            const SizedBox(
-              width: 8,
-            ),
-            Text(
-              "it's free!",
-              style: GoogleFonts.poppins(
-                textStyle: const TextStyle(fontSize: 20),
+              const SizedBox(
+                width: 8,
               ),
-            ),
-          ],
-        ),
-      ]),
+              Text(
+                "it's free!",
+                style: GoogleFonts.poppins(
+                  textStyle: const TextStyle(fontSize: 20),
+                ),
+              ),
+            ],
+          ),
+        ]),
+      ),
     );
   }
 }

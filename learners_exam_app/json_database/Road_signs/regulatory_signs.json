@@ -1,0 +1,457 @@
+[
+    {
+        "regulatoryIndex": "1",
+        "regulatoryId": "phs-1",
+        "regulatoryTitle": "ඇතුල්වීම තහනම්",
+        "regulatoryDescription": "රථවාහන ඇතුළු නොවිය යුතුයි.",
+        "regulatoryImg":"images/png/regulatory_signs/phs1.png"
+    },
+    {
+        "regulatoryIndex": "2",
+        "regulatoryId": "phs-2",
+        "regulatoryTitle": "වම් පැත්තට හැරවීම තහනම්",
+        "regulatoryDescription": " රථ වාහන  වම් පැත්තට  නොහැර විය යුතුයි.",
+        "regulatoryImg": "images/png/regulatory_signs/phs2.png"
+    },
+    {
+        "regulatoryIndex": "3",
+        "regulatoryId": "phs-3",
+        "regulatoryTitle": "දකුණු පැත්තට හැරවීම තහනම්. ",
+        "regulatoryDescription": "රථ වාහන  දකුණු පැත්තට  නොහැර විය යුතුයි.",
+        "regulatoryImg": "images/png/regulatory_signs/phs3.png"
+    },
+    {
+        "regulatoryIndex": "4",
+        "regulatoryId": "phs-4",
+        "regulatoryTitle": "U හැඩයට සිටිනසේ හැරවීම තහනම්",
+        "regulatoryDescription": " රථවාහනවලට යූ හැඩයට ආපස්සට හැරවීම තහනම්",
+        "regulatoryImg": "images/png/regulatory_signs/phs4.png"
+    },
+    {
+        "regulatoryIndex": "5",
+        "regulatoryId": "phs-5",
+        "regulatoryTitle": "වාහන ඉස්සර කිරීම තහනම්",
+        "regulatoryDescription": "බලශක්තියෙන් ධාවනය කරනු ලබන  වාහන රෝද දෙකේ සැහැල්ලු යතුරුපැදි   ඇති කාර් සහිත රෝද දෙකේ යතුරුපැදි හැර වෙනත් වාහන ඉස්සර කිරීම තහනම්",
+        "regulatoryImg": "images/png/regulatory_signs/phs5.png"
+    },
+    {
+        "regulatoryIndex": "6",
+        "regulatoryId": "phs-6",
+        "regulatoryTitle": " වාහන ඉස්සර කිරීමේ තහනමේ නිමාව",
+        "regulatoryDescription": "phs-5 දැක්වෙන වාහන ඉස්සර කිරීම තහනම නිමාව",
+        "regulatoryImg": "images/png/regulatory_signs/phs6.png"
+    },
+    {
+        "regulatoryIndex": "7",
+        "regulatoryId": "phs-7",
+        "regulatoryTitle": "බඩු  පැටවූ වාහන ඉස්සර කිරීම තහනම්",
+        "regulatoryDescription": "",
+        "regulatoryImg": "images/png/regulatory_signs/phs7.png"
+    },
+    {
+        "regulatoryIndex": "8",
+        "regulatoryId": "phs-8",
+        "regulatoryTitle": "බඩු පැටවූ වාහන ඉස්සර  කිරිම  තහනමේ නිමාව",
+        "regulatoryDescription": "බලශක්තියෙන් ධාවනය කරනු ලබන වාහන  රෝද දෙකේ සැහැල්ලු යතුරුපැදි   පැ කාර් රහිත රෝද දෙකේ යතුරුපැදිය හැර වෙනත් වාහන ටොන් 3.5 ක වැඩි වූ බඩු පැටවූ වාහන මගින් ඉස්සර කිරීම තහනම් ය",
+        "regulatoryImg": "images/png/regulatory_signs/phs8.png"
+    },
+    {
+        "regulatoryIndex": "9",
+        "regulatoryId": "phs-9",
+        "regulatoryTitle": "නලා ශබ්ද කිරීම තහනම්",
+        "regulatoryDescription": "යම් ස්ථානයකදී හෝ මාර්ගයක කොටසක ශබ්ද සංඥා පාවිච්චි කිරීම  තහනම්ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs9.png"
+    },
+    {
+        "regulatoryIndex": "10",
+        "regulatoryId": "phs-10",
+        "regulatoryTitle": "සියලුම රථවාහන සඳහා මාර්ගය වසා ඇත",
+        "regulatoryDescription": "සියලුම රථවාහන නිශ්චිත මාර්ගයකට හෝ මාර්ගයේ කොටසකට ඇතුළුවීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs10.png"
+    },
+    {
+        "regulatoryIndex": "11",
+        "regulatoryId": "phs-11",
+        "regulatoryTitle": "මෝටර් රථ සඳහා මාර්ගය වසා ඇත",
+        "regulatoryDescription": "මෝටර් රථවලට මාර්ගය කොටසකට හෝ මාර්ගයේ  ඇතුළු වීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs11.png"
+    },
+    {
+        "regulatoryIndex": "12",
+        "regulatoryId": "phs-12",
+        "regulatoryTitle": "බස් රථ සඳහා මාර්ගය වසා ඇත",
+        "regulatoryDescription": "බස් රථ වලට මාර්ගය කොටසකට හෝ මාර්ගයට ඇතුළුවීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs12.png"
+    },
+    {
+        "regulatoryIndex": "13",
+        "regulatoryId": "phs-13",
+        "regulatoryTitle": "ලොරි රථ සඳහා මාර්ගය වසා ඇත",
+        "regulatoryDescription": "ලොරිවලට මාර්ගයේ කොටසකට හෝ මාර්ගයට ඇතුළුවීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs13.png"
+    },
+    {
+        "regulatoryIndex": "14",
+        "regulatoryId": "phs-14",
+        "regulatoryTitle": "ඇමුණූ වාහන සඳහා මාර්ගය වසා ඇත",
+        "regulatoryDescription": "ඇමුණූ වාහන  මාර්ගය කොටසකට හෝ මාර්ගයට ඇතුළුවීම තහනම්ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs14.png"
+    },
+    {
+        "regulatoryIndex": "15",
+        "regulatoryId": "phs-15",
+        "regulatoryTitle": "බලශක්තියෙන් ධාවනය කරනු ලබන කෘෂිකාර්මික වාහන සඳහා මාර්ගය වසා ඇත",
+        "regulatoryDescription": "බලශක්තීන් ධාවනය කරනු ලබන  කෘෂිකාර්මික වාහන සඳහා මාර්ගයට හෝ මාර්ගයේ කොටසකට හෝ ඇතුළුවීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs15.png"
+    },
+    {
+        "regulatoryIndex": "16",
+        "regulatoryId": "phs-16",
+        "regulatoryTitle": "අත්ට්‍රැක්ටර් සඳහා මාර්ගය වසා ඇත",
+        "regulatoryDescription": "අත්ට්‍රැක්ටර් මාර්ගයට හෝ මාර්ගයේ කොටසකට ඇතුළුවීම  තහනම්ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs16.png"
+    },
+    {
+        "regulatoryIndex": "17",
+        "regulatoryId": "phs-17",
+        "regulatoryTitle": "ත්‍රීරෝද රථ සඳහා මාර්ගය වසා ඇත",
+        "regulatoryDescription": "ත්‍රීරෝද රථ සඳහා මාර්ගයකට හෝ මාර්ග කොටසකට ඇතුල්වීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs17.png"
+    },
+    {
+        "regulatoryIndex": "18",
+        "regulatoryId": "phs-18",
+        "regulatoryTitle": "යතුරුපැදි සඳහා මාර්ගය වසා ඇත",
+        "regulatoryDescription": "යතුරු පැදි මාර්ගයකට හෝ කොටසකට ඇතුළුවීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs18.png"
+    },
+    {
+        "regulatoryIndex": "19",
+        "regulatoryId": "phs-19",
+        "regulatoryTitle": "පාපැදි සඳහා මාර්ගය වසා ඇත",
+        "regulatoryDescription": "පාපැදිකරුවන් මාර්ගයකට හෝ මාර්ග කොටසකට ඇතුළුවීම  තහනම්ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs19.png"
+    },
+    {
+        "regulatoryIndex": "20",
+        "regulatoryId": "phs-20",
+        "regulatoryTitle": "සතුන් ඇදගෙන යනු ලබන වාහන සඳහා මාර්ගය වසා ඇත",
+        "regulatoryDescription": " සතුන් ඇදගෙන යනු ලබන වාහන මාර්ගයට හෝ මාර්ගය කොටසකට ඇතුළුවීම තහනම්.",
+        "regulatoryImg": "images/png/regulatory_signs/phs20.png"
+    },
+    {
+        "regulatoryIndex": "21",
+        "regulatoryId": "phs-21",
+        "regulatoryTitle": "අත් කරත්ත සඳහා මාර්ගය වසා ඇත",
+        "regulatoryDescription": "අත් කරත්ත වලට මාර්ගයට හෝ මාර්ගයේ කොටසකට ඇතුළුවීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs21.png"
+    },
+    {
+        "regulatoryIndex": "22",
+        "regulatoryId": "phs-22",
+        "regulatoryTitle": "පදිකයන් සදහා මාර්ගය වසා ඇත",
+        "regulatoryDescription": "පදිකයන්ට මාර්ගයට හෝ මාර්ගයේ කොටසකට ඇතුළුවීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs22.png"
+    },
+    {
+        "regulatoryIndex": "23",
+        "regulatoryId": "phs-23",
+        "regulatoryTitle": "රථ වාහන නැවැත්වීම තහනම්",
+        "regulatoryDescription": "මාර්ගයේ සලකුණු පිහිටුවා ඇති පැත්තෙ රථ වාහන නවතා තැබීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs23.png"
+    },
+    {
+        "regulatoryIndex": "24",
+        "regulatoryId": "phs-24",
+        "regulatoryTitle": "රථ වාහන නැවත්වීම සහ  පැටවීම තහනම්",
+        "regulatoryDescription": "මාර්ග සලකුණ පිහිටුවා ඇති පැත්තේ වාහන නැවැත්වීම හෝ නවත්වා තබා ගැනීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs24.png"
+    },
+    {
+        "regulatoryIndex": "25",
+        "regulatoryId": "phs-25",
+        "regulatoryTitle": "ඔත්තේ දිනවල වාහන නැවැත්වීම තහනම්",
+        "regulatoryDescription": "ඔත්තේ දිනවල (මාසයේ 1 3 5 7 9 11 13 15 17 19 23 25 27 29 31) සළකුණු පිහිටා ඇති පැත්තේ රථ වාහන නැවැත්වීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs25.png"
+    },
+    {
+        "regulatoryIndex": "26",
+        "regulatoryId": "phs-26",
+        "regulatoryTitle": "ඉරට්ටේ දිනවල වාහන නැවැත්වීම තහනම් ",
+        "regulatoryDescription": "ඉරට්ටේ දිනවල (මාසයේ 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30) රථවාහන සලකුණ පිහිටුවා ඇති පැත්තේ නැවැත්වීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs26.png"
+    },
+    {
+        "regulatoryIndex": "27",
+        "regulatoryId": "rss-01",
+        "regulatoryTitle": "පලල් සීමාව",
+        "regulatoryDescription": "දක්වා ඇති පළල ප්‍රමාණය ඉක්මවන පළලින් යුත් වාහන හෝ බඩු පටවන ලද වාහන ගමන් කිරීම  තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs27.png"
+    },
+    {
+        "regulatoryIndex": "28",
+        "regulatoryId": "rss-02",
+        "regulatoryTitle": "උස සීමාව",
+        "regulatoryDescription": "දක්වා ඇති උස ප්‍රමාණය ඉක්මවා සම්පූර්ණ උසින් යුත් වාහන හෝ බඩු පටවන ලද වාහන ගමන් කිරීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs28.png"
+    },
+    {
+        "regulatoryIndex": "29",
+        "regulatoryId": "rss-03",
+        "regulatoryTitle": "බර සීමාව",
+        "regulatoryDescription": "දක්වා ඇති බර ප්‍රමාණය ඉක්මවන බරින් යුත් වාහන හෝ බඩු පටවන ලද වාහනය ගමන් කිරීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs29.png"
+    },
+    {
+        "regulatoryIndex": "30",
+        "regulatoryId": "rss-04",
+        "regulatoryTitle": "ඇක්සලයක් මත නියමිත බර සීමාව",
+        "regulatoryDescription": "දක්වා ඇති ඇක්සල බර ප්‍රමාණය ඉක්මවන බරින් යුත් වාහන හෝ බඩු පටවන ලද වාහනයක් ගමන් කිරීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs30.png"
+    },
+    {
+        "regulatoryIndex": "31",
+        "regulatoryId": "rss-05",
+        "regulatoryTitle": "සංවර්ධිත පෙදෙස්වල ත්‍රීරෝද රථ සහ ඉඩම් වාහන හැර රථවාහන",
+        "regulatoryDescription": "ත්‍රීවිලර්, ට්‍රැක්ටර් හැර, මෝටර් කාර් ද්වී කාර්යය වාහන, යතුරුපැදි, මෝටර් ලොරි යන වාහන සංවර්ධිත ප්‍රදේශ හා කඳු ප්‍රදේශවල දක්වා ඇති පැයට කිලෝමීටර 50 වේග සීමා ඉක්මවා පැදවීම තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs31.png"
+    },
+    {
+        "regulatoryIndex": "32",
+        "regulatoryId": "rss-06",
+        "regulatoryTitle": "සංවර්ධිත ප්‍රදේශ වලට බාහිරව ඇති ප්‍රදේශ සඳහා සැහැල්ලු වාහන වලට ඇති වේග සීමා",
+        "regulatoryDescription": "මෝටර් කාර්, ද්වී කාර්යය වාහන, යතුරුපැදි,අසංවර්ධිත ප්‍රදේශවල දක්වා ඇති පැයට කිලෝමීටර් 70 වේග සීමා ඉක්මවා පැදවීම  තහනම් ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs32.png"
+    },
+    {
+        "regulatoryIndex": "33",
+        "regulatoryId": "rss-07",
+        "regulatoryTitle": "අසංවර්ධිත ප්‍රදේශ සඳහා බර වාහන වේග සීමා",
+        "regulatoryDescription": "මෝටර් කෝච්, මෝටර්  ලොරි, අසංවර්ධිත ප්‍රදේශවලට අදාළව දක්වා ඇති වේග සීමා ඉක්මවා ධාවනය කිරීම තහනම්ය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs33.png"
+    },
+    {
+        "regulatoryIndex": "34",
+        "regulatoryId": "rss-08",
+        "regulatoryTitle": "ත්‍රී විලර් ඉඩම් වාහන ආදිය සඳහා සංවර්ධිත හා අසංවර්ධිත ප්‍රදේශවල වේග සීමා",
+        "regulatoryDescription": "motor tricycle, van, motor tricycle ඉඩම් වාහන ඉඩම් වාහන වාෂ්ප බලයෙන් ධාවනය වන රථවාහන කාණ්ඩ අසංවර්ධිත ප්‍රදේශ සහ සංවර්ධිත ප්‍රදේශ සඳහා දක්වා ඇති වේග සීමා ඉක්මවා ධාවනය කිරීම  තහනම්ය",
+        "regulatoryImg": "images/png/regulatory_signs/phs34.png"
+    },
+    {
+        "regulatoryIndex": "35",
+        "regulatoryId": "rss-09",
+        "regulatoryTitle": "පාසල්  හා රෝහල් හෝ වෙනත් නියම කරන ස්ථාන සඳහා සියලුම රථවාහන වේග සීමා",
+        "regulatoryDescription": "පාසැල් හා රෝහල් හෝ වෙනත් නියම කරන ලද ස්ථාන දක්වා ඇති වේග සීමා ඉක්මවා ධාවනය කිරීම සියලුම වර්ග වල වාහන වලට තහනම්ය අංක සහ සලකුණු සීමා කර ඇති වේග සීමා අනුව වෙනස් විය යුතුය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs35.png"
+    },
+    {
+        "regulatoryIndex": "36",
+        "regulatoryId": "rss-10",
+        "regulatoryTitle": "වේගසීමාව හි අවසානය",
+        "regulatoryDescription": "hs5 සලකුණ හි දැක්වෙන වේග සීමාව අවසන්ය අංක සහ සලකුණු සීමා කර ඇති වේග සීමාව අනුව වෙනස් විය හැකිය",
+        "regulatoryImg": "images/png/regulatory_signs/phs36.png"
+    },
+    {
+        "regulatoryIndex": "37",
+        "regulatoryId": "mns-01",
+        "regulatoryTitle": "වම් පැත්තට හැරවිය යුතුය",
+        "regulatoryDescription": "රථවාහන වම් පැත්තට හැරවිය යුතුය",
+        "regulatoryImg": "images/png/regulatory_signs/phs37.png"
+    },
+    {
+        "regulatoryIndex": "38",
+        "regulatoryId": "msn-02",
+        "regulatoryTitle": "දකුණු පැත්තට හැරවිය යුතුය",
+        "regulatoryDescription": "රථ වාහන දකුණු පැත්තට හැරවිය යුතුය",
+        "regulatoryImg": "images/png/regulatory_signs/phs38.png"
+    },
+    {
+        "regulatoryIndex": "39",
+        "regulatoryId": "msn-03",
+        "regulatoryTitle": "කෙලින්ම ඉදිරියට ගමන් කළ යුතුය",
+        "regulatoryDescription": "රථවාහන කෙලින්ම  ඉදිරිපසට ධාවනය කළ යුතුය",
+        "regulatoryImg": "images/png/regulatory_signs/phs39.png"
+    },
+    {
+        "regulatoryIndex": "40",
+        "regulatoryId": "msn-04",
+        "regulatoryTitle": "ඉදිරියෙන් වම් පැත්තට හැරවිය යුතුය",
+        "regulatoryDescription": "රථ වාහන ඉදිරියෙන් වම් පැත්තට හැරවිය යුතුය",
+        "regulatoryImg": "images/png/regulatory_signs/phs40.png"
+    },
+    {
+        "regulatoryIndex": "41",
+        "regulatoryId": "msn-05",
+        "regulatoryTitle": "ඉදිරියෙන් දකුණු පැත්තට  හැර විය යුතුය",
+        "regulatoryDescription": "රථවාහන ඉදිරියෙන් දකුණු පැත්තට හැරවිය යුතුය",
+        "regulatoryImg": "images/png/regulatory_signs/phs41.png"
+    },
+    {
+        "regulatoryIndex": "42",
+        "regulatoryId": "msn-06",
+        "regulatoryTitle": "වම් පැත්තෙන් පසු කරන්න",
+        "regulatoryDescription": "සලකුණ පසුකරන වාහන සලකුණට වම් පැත්තෙන් ගමන් කළ යුතුය",
+        "regulatoryImg": "images/png/regulatory_signs/phs42.png"
+    },
+    {
+        "regulatoryIndex": "43",
+        "regulatoryId": "msn-07",
+        "regulatoryTitle": "දකුණු පැත්තෙන් පසු කරන්න",
+        "regulatoryDescription": "සලකුණු පසුකරන වාහන සලකුණට දකුණු පැත්තෙන් ගමන් කළ යුතුය",
+        "regulatoryImg": "images/png/regulatory_signs/phs43.png"
+    },
+    {
+        "regulatoryIndex": "44",
+        "regulatoryId": "msn-08",
+        "regulatoryTitle": "අවශ්‍ය ය පැත්තෙන් පසු කරන්න",
+        "regulatoryDescription": "සලකුණු පසු කරන වාහන සලකුණට දකුණු පැත්තෙන් හෝ වම් වැඩ එන ගමන් කළ යුතුය",
+        "regulatoryImg": "images/png/regulatory_signs/phs44.png"
+    },
+    {
+        "regulatoryIndex": "45",
+        "regulatoryId": "msn-09",
+        "regulatoryTitle": "අනිවාර්ය වටරවුම",
+        "regulatoryDescription": "ර්ගයක මං සන්ධිස්ථානයකට ඇතුළු වන වාහන විසින් රථ ධාවන පථයේ පිහිටුවා ඇති ආර්යන් දෙකෙහි පස්වන උපලේඛනය දැක්වෙන සලකුණ හි දකුණු පැත්තේ සිට එන රථවාහන වලට ප්‍රමුඛත්වය දිය යුතුය නැතහොත් මං  සංධිස්ථානයේ මාර්ග ලකුණු කිරීම. දෘශ්‍යමාන නොවේ නම් දක්ෂිණ වෘත ව ඊතල මගින් පෙන්වා ඇති දිශාවට අනුව එම වාහන එම ස්ථානය පසුකර ඉදිරියට ගමන් කළ යුතුය.",
+        "regulatoryImg": "images/png/regulatory_signs/phs45.png"
+    },
+    {
+        "regulatoryIndex": "46",
+        "regulatoryId": "prs-01",
+        "regulatoryTitle": "නවතිනු",
+        "regulatoryDescription": "දහවන නියෝගයේ පලවන ඡේදය දැක්වෙන නියමයන්ට අනුව සුළු මාර්ගයෙන් විසින් ප්‍රධාන මාර්ගයක් ඡේදනය වන ස්ථානයකි එකී සුළු මාර්ගයේ ගමන් කරන රථවාහන නවතා ප්‍රධාන මාර්ගයේ ගමන් කරන රථවාහන වලට ප්‍රමුඛත්වය දිය යුතු බවට සුළු මාර්ගයේ ගමන් කරන රථවාහන වලට දැන්වීමයි",
+        "regulatoryImg": "images/png/regulatory_signs/phs46.png"
+    },
+    {
+        "regulatoryIndex": "47",
+        "regulatoryId": "prs-02",
+        "regulatoryTitle": "මාර්ගය ඉඩ දෙනු",
+        "regulatoryDescription": "වන නියෝගයෙන් දෙවන ඡේදය දැක්වෙන නියමයන්ට අනුව සුළු මාර්ගයක් විසින් ප්‍රධාන මාර්ගයක් ඡේදනය වන ස්ථානයකදීම එකී සුළු මාර්ගයේ ගමන් කරන රථවාහන විසින්ද ප්‍රධාන මාර්ගයේ ගමන් කරන රථවාහන වලට ඉඩ දිය යුතු බවට එසේ සුළු මාර්ගයේ ගමන් කරන රථවාහන වලට දැන්වීමයි",
+        "regulatoryImg": "images/png/regulatory_signs/phs47.png"
+    },
+    {
+        "regulatoryIndex": "48",
+        "regulatoryId": "prs-03",
+        "regulatoryTitle": "ප්‍රමුඛතා මාර්ගය",
+        "regulatoryDescription": "ප්‍රධාන මාර්ගයක් විසින් සුළු මාර්ගයක් ඡේදනය වී මංසන්ධියක් සෑදෙන ස්ථානයකදී ප්‍රධාන මාර්ගයට ඇතුළු වන සුළු මාර්ගයේ ගමන් කරන රථවාහන විසින් ප්‍රධාන මාර්ගයේ ගමන් කරන රථවාහන වලට දහ වන නියෝග පලවන  දෙවන ඡේදයට අනුව ප්‍රමුඛත්වය දිය යුතු බවට එකී ප්‍රධාන මාර්ගයේ ගමන් කරන රථවාහන වල රියදුරන්ට දැන්වීම්",
+        "regulatoryImg": "images/png/regulatory_signs/phs48.png"
+    },
+    {
+        "regulatoryIndex": "49",
+        "regulatoryId": "prs-04",
+        "regulatoryTitle": "ප්‍රමුඛතාව අවසන්",
+        "regulatoryDescription": "cars3 සලකුණ මගින් දක්වන ලද පරිදි ප්‍රධාන මාර්ගයේ ගමන් කරන රථවාහන වලට ප්‍රමුඛත්වය දීම අවසන් වන බැව් ප්‍රධාන මාර්ගයේ ගමන් කරන ලද වාහන වල රියදුරන් හට දැන්වීම්",
+        "regulatoryImg": "images/png/regulatory_signs/phs49.png"
+    },
+    {
+        "regulatoryIndex": "50",
+        "regulatoryId": "prs-05",
+        "regulatoryTitle": "ඉදිරියෙන් යන වාහන වලට ප්‍රමුඛත්වය දිය යුතුය",
+        "regulatoryDescription": "මාර්ගය පටු ව පවත්නා කොටසක් හරහා ලගා වන වාහන වල රියදුරන් විසින් එකී පටු කොටස මත ඉදිරියට එන වාහන වලට ප්‍රමුඛත්වය දිය යුතු බව දැන්වීම",
+        "regulatoryImg": "images/png/regulatory_signs/phs50.png"
+    },
+    {
+        "regulatoryIndex": "51",
+        "regulatoryId": "prs-06",
+        "regulatoryTitle": "ඉදිරියට පැමිණෙන රථ වාහන වලට ප්‍රමුඛත්වය දිය යුතුය",
+        "regulatoryDescription": "මාර්ගයක පටුව පවත්නා කොටසකට විරුද්ධ දිශාවට ගමන් කරන වාහන වල රියදුරන් එකී පටු කොටස මත වාහන වලට ප්‍රමුඛත්වය දිය යුතු බව මාර්ගය එම පටු කොටසට ලඟාවන රියදුරන් හට දැන්වීම",
+        "regulatoryImg": "images/png/regulatory_signs/phs51.png"
+    },
+    {
+        "regulatoryIndex": "52",
+        "regulatoryId": "apr-01",
+        "regulatoryTitle": "නියමයට ඇති දුර",
+        "regulatoryDescription": "සලකුණේ සිට නියමය ආරම්භ කරන ස්ථානයට ඇති දුර දැක්වීමට පුවරුව",
+        "regulatoryImg": "images/png/regulatory_signs/phs52.png"
+    },
+    {
+        "regulatoryIndex": "53",
+        "regulatoryId": "apr-02",
+        "regulatoryTitle": "නියමය සහිත සලකුණේ දිග ප්‍රමාණය",
+        "regulatoryDescription": "නියාමන සලකුණකින් නියමය ඇති දුර ප්‍රමාණය දැක්වෙන පුවරුව",
+        "regulatoryImg": "images/png/regulatory_signs/phs53.png"
+    },
+    {
+        "regulatoryIndex": "54",
+        "regulatoryId": "apr-03",
+        "regulatoryTitle": " වාහන නවතා තැබීමේ සහ නැවැත්වීමේ  නියමය ආරම්භය",
+        "regulatoryDescription": "වාහන වාහන නවතා තැබීමේ හා නැවැත්වීමේ  තහනම් නියමය ආරම්භය දැක්වෙන පුවරුව.",
+        "regulatoryImg": "images/png/regulatory_signs/phs54.png"
+    },
+    {
+        "regulatoryIndex": "55",
+        "regulatoryId": "apr-04",
+        "regulatoryTitle": "වාහන නවතා තැබීමේ සහ නැවැත්වීමේ තහනම නියමයේ දිශාව",
+        "regulatoryDescription": " වාහන නවතා තැබීමේ හා නැවැත්වීමේ නියමය දිගටම පැවැත්වෙන බැව් දැක්වීමට භාවිතා කරන පුවරුව",
+        "regulatoryImg": "images/png/regulatory_signs/phs55.png"
+    },
+    {
+        "regulatoryIndex": "56",
+        "regulatoryId": "apr-05",
+        "regulatoryTitle": " වාහන නවතා තැබීමේ සහ නැවැත්වීමේ තහනම් නියමය අවසානය",
+        "regulatoryDescription": " වාහන නවතා තැබීමේ සහ නැවැත්වීමේ තහනම් නියමය අවසානය වාහන නවතා තැබීමේ හෝ නැවැත්වීමේ තහනම් නියමය අවසන් කෙරෙන බවට දැන්වීමට භාවිතා කරන පුවරුව",
+        "regulatoryImg": "images/png/regulatory_signs/phs56.png"
+    },
+    {
+        "regulatoryIndex": "57",
+        "regulatoryId": "apr-06",
+        "regulatoryTitle": "වාහන නවතා තැබීමේ සහ නැවැත්වීමේ තහනම් කෙරෙන කාලසීමාව සහ දිශාව",
+        "regulatoryDescription":"වාහන නවතා තැබීමේ සහ නැවැත්වීමෙන් තහනම් වන කාල සීමාව හා ඒවා බලපාන දිශාව සම්බන්ධයෙන් භාවිත කරන පුවරුව",
+        "regulatoryImg": "images/png/regulatory_signs/phs57.png"
+    },
+    {
+        "regulatoryIndex": "58",
+        "regulatoryId": "apr-07",
+        "regulatoryTitle": "Lechchas නමය සලකුණට නියමයන් නිදහස් කරන බැව් සලකුණේ සවිකළ යුතුය",
+        "regulatoryDescription": "තහනම නිදහස් කළ බවට තහනම් සලකුණට සවිකල පුවරුවේ වගන්ති තහනම නිදහස් කිරීමේ පදනම මත වෙනස් වේ",
+        "regulatoryImg": "images/png/regulatory_signs/phs58.png"
+    },
+    {
+        "regulatoryIndex": "59",
+        "regulatoryId": "apr-08",
+        "regulatoryTitle": "පාසල් හා වෙනත් නියම කරන ස්ථාන අතිරේක සලකුණු වෙනුවට rhc9 සලකුණු ට ඇතුළත් කළ යුතුය",
+        "regulatoryDescription": " වේග සීමාවන් හෝ නලා ශබ්ද කිරීමේ නියමයන් අදාල නියම කරනු ලබන ස්ථානය අනුව rhc9 ධර්ම නියාමය සලකුණට සවි කරන ලද පුවරුවRs5 දරන වේග සීමා සලකුණට සවිකළ යුතුය වාහන වල වර්ග දැක්වීමට rs5 සලකුණේ සවිකල පුවරුව",
+        "regulatoryImg": "images/png/regulatory_signs/phs59.png"
+    },
+    {
+        "regulatoryIndex": "60",
+        "regulatoryId": "apr-09",
+        "regulatoryTitle": "rhc9 ධර්ම නියාමය සලකුණට සවි කරන ලද පුවරුව Rs5 දරන වේග සීමා සලකුණට සවිකළ යුතුය",
+        "regulatoryDescription": " වාහන වල වර්ග දැක්වීමට rs5 සලකුණේ සවිකල පුවරුව",
+        "regulatoryImg": "images/png/regulatory_signs/phs60.png"
+    },
+    {
+        "regulatoryIndex": "61",
+        "regulatoryId": "apr-10",
+        "regulatoryTitle": " rx6 දරන වේග සීමා සලකුණට සවි කළ යුතුය",
+        "regulatoryDescription": "වාහන වර්ග දැක්වීමට ආර්ය සලකුනේ සවිකල පුවරුව",
+        "regulatoryImg": "images/png/regulatory_signs/phs61.png"
+    },
+    {
+        "regulatoryIndex": "62",
+        "regulatoryId": "apr-11",
+        "regulatoryTitle": "rx7 දරන වේග සීමා සලකුණට සවි කළ යුතුය",
+        "regulatoryDescription": " වාහන වර්ග දැක්වීමට ආර්ය සලකුනේ සවිකල පුවරුව",
+        "regulatoryImg": "images/png/regulatory_signs/phs62.png"
+    },
+    {
+        "regulatoryIndex": "63",
+        "regulatoryId": "apr-12",
+        "regulatoryTitle": "rx8 දරන වේග සීමා සලකුණට සවි කළ යුතුය",
+        "regulatoryDescription": "වාහන වර්ග දැක්වීමට ආර්ය සලකුනේ සවිකල පුවරුව",
+        "regulatoryImg": "images/png/regulatory_signs/phs63.png"
+    },
+    {
+        "regulatoryIndex": "64",
+        "regulatoryId": "apr-13",
+        "regulatoryTitle": "Rx5 සහ ආර්ථීක r9 වේග සීමා සලකුණු අතරට සවි කළ යුතුය",
+        "regulatoryDescription": " කාඩ් hs5 සහ 19 වේග සීමා සලකුණු අතර සවිකල පුවරුව",
+        "regulatoryImg": "images/png/regulatory_signs/phs64.png"
+    },
+    {
+        "regulatoryIndex": "65",
+        "regulatoryId": "apr-14",
+        "regulatoryTitle": " ලකුණ පීඑච් 1 2 හෝ 3 ට අධිවේගී මාර්ගයට ප්‍රවේශ වල ස්ථානය සවි කළ යුතුය",
+        "regulatoryDescription": "අධිවේගී මාර්ගයට ඇතුළු වන ස්ථානයේ පිහිටි එක දෙක හෝ තුන සලකුණු වලට සවි කළ පුවරුව",
+        "regulatoryImg": "images/png/regulatory_signs/phs65.png"
+    }      
+]

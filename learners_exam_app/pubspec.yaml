@@ -38,9 +38,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   lottie: ^2.3.2
   flutter_svg: ^2.0.5
-  google_fonts: ^4.0.4
+  google_fonts: ^5.0.0
   url_launcher: ^6.1.11
   device_preview: ^1.1.0
+  http: ^1.0.0
 
 dev_dependencies:
   flutter_test:
@@ -66,7 +67,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - json_database/
+    - json_database/Road_signs/road_sign_categories.json
+    - json_database/Road_signs/warning_signs.json
+    - json_database/Road_signs/regulatory_signs.json
     - images/main_app_images/logoforquiz.png
     - images/main_app_images/json/firstscreen.json
     - images/png/arrowright.png
@@ -86,6 +89,130 @@ flutter:
     - images/Categories/road_sign_categories/6.png
     - images/Categories/road_sign_categories/7.png
     - images/Categories/road_sign_categories/8.png
+
+    - images/png/warning_signs/dws1.png
+    - images/png/warning_signs/dws2.png
+    - images/png/warning_signs/dws3.png
+    - images/png/warning_signs/dws4.png
+    - images/png/warning_signs/dws5.png
+    - images/png/warning_signs/dws6.png
+    - images/png/warning_signs/dws7.png
+    - images/png/warning_signs/dws8.png
+    - images/png/warning_signs/dws9.png
+    - images/png/warning_signs/dws10.png
+    - images/png/warning_signs/dws11.png
+    - images/png/warning_signs/dws12.png
+    - images/png/warning_signs/dws13.png
+    - images/png/warning_signs/dws14.png
+    - images/png/warning_signs/dws15.png
+    - images/png/warning_signs/dws16.png
+    - images/png/warning_signs/dws17.png
+    - images/png/warning_signs/dws18.png
+    - images/png/warning_signs/dws19.png
+    - images/png/warning_signs/dws20.png
+    - images/png/warning_signs/dws21.png
+    - images/png/warning_signs/dws22.png
+    - images/png/warning_signs/dws23.png
+    - images/png/warning_signs/dws24.png
+    - images/png/warning_signs/dws25.png
+    - images/png/warning_signs/dws26.png
+    - images/png/warning_signs/dws27.png
+    - images/png/warning_signs/dws28.png
+    - images/png/warning_signs/dws29.png
+    - images/png/warning_signs/dws30.png
+    - images/png/warning_signs/dws31.png
+    - images/png/warning_signs/dws32.png
+    - images/png/warning_signs/dws33.png
+    - images/png/warning_signs/dws34.png
+    - images/png/warning_signs/dws35.png
+    - images/png/warning_signs/dws36.png
+    - images/png/warning_signs/dws37.png
+    - images/png/warning_signs/dws38.png
+    - images/png/warning_signs/dws39.png
+    - images/png/warning_signs/dws40.png
+    - images/png/warning_signs/dws41.png
+    - images/png/warning_signs/dws42.png
+    - images/png/warning_signs/dws43.png
+    - images/png/warning_signs/dws44.png
+    - images/png/warning_signs/dws45.png
+    - images/png/warning_signs/dws46.png
+    - images/png/warning_signs/dws47.png
+    - images/png/warning_signs/dws48.png
+    - images/png/warning_signs/dws49.png
+    - images/png/warning_signs/dws50.png
+    - images/png/warning_signs/dws51.png
+    - images/png/warning_signs/apd1.png
+    - images/png/warning_signs/apd2.png
+    - images/png/warning_signs/apd3.png
+    - images/png/warning_signs/apd4.png
+
+    - images/png/regulatory_signs/phs1.png
+    - images/png/regulatory_signs/phs2.png
+    - images/png/regulatory_signs/phs3.png
+    - images/png/regulatory_signs/phs4.png
+    - images/png/regulatory_signs/phs5.png
+    - images/png/regulatory_signs/phs6.png
+    - images/png/regulatory_signs/phs7.png
+    - images/png/regulatory_signs/phs8.png
+    - images/png/regulatory_signs/phs9.png
+    - images/png/regulatory_signs/phs10.png
+    - images/png/regulatory_signs/phs11.png
+    - images/png/regulatory_signs/phs12.png
+    - images/png/regulatory_signs/phs13.png
+    - images/png/regulatory_signs/phs14.png
+    - images/png/regulatory_signs/phs15.png
+    - images/png/regulatory_signs/phs16.png
+    - images/png/regulatory_signs/phs17.png
+    - images/png/regulatory_signs/phs18.png
+    - images/png/regulatory_signs/phs19.png
+    - images/png/regulatory_signs/phs20.png
+    - images/png/regulatory_signs/phs21.png
+    - images/png/regulatory_signs/phs22.png
+    - images/png/regulatory_signs/phs23.png
+    - images/png/regulatory_signs/phs24.png
+    - images/png/regulatory_signs/phs25.png
+    - images/png/regulatory_signs/phs26.png
+    - images/png/regulatory_signs/phs27.png
+    - images/png/regulatory_signs/phs28.png
+    - images/png/regulatory_signs/phs29.png
+    - images/png/regulatory_signs/phs30.png
+    - images/png/regulatory_signs/phs31.png
+    - images/png/regulatory_signs/phs32.png
+    - images/png/regulatory_signs/phs33.png
+    - images/png/regulatory_signs/phs34.png
+    - images/png/regulatory_signs/phs35.png
+    - images/png/regulatory_signs/phs36.png
+    - images/png/regulatory_signs/phs37.png
+    - images/png/regulatory_signs/phs38.png
+    - images/png/regulatory_signs/phs39.png
+    - images/png/regulatory_signs/phs40.png
+    - images/png/regulatory_signs/phs41.png
+    - images/png/regulatory_signs/phs42.png
+    - images/png/regulatory_signs/phs43.png
+    - images/png/regulatory_signs/phs44.png
+    - images/png/regulatory_signs/phs45.png
+    - images/png/regulatory_signs/phs46.png
+    - images/png/regulatory_signs/phs47.png
+    - images/png/regulatory_signs/phs48.png
+    - images/png/regulatory_signs/phs49.png
+    - images/png/regulatory_signs/phs50.png
+    - images/png/regulatory_signs/phs51.png
+    - images/png/regulatory_signs/phs52.png
+    - images/png/regulatory_signs/phs53.png
+    - images/png/regulatory_signs/phs54.png
+    - images/png/regulatory_signs/phs55.png
+    - images/png/regulatory_signs/phs56.png
+    - images/png/regulatory_signs/phs57.png
+    - images/png/regulatory_signs/phs58.png
+    - images/png/regulatory_signs/phs59.png
+    - images/png/regulatory_signs/phs60.png
+    - images/png/regulatory_signs/phs61.png
+    - images/png/regulatory_signs/phs62.png
+    - images/png/regulatory_signs/phs63.png
+    - images/png/regulatory_signs/phs64.png
+    - images/png/regulatory_signs/phs65.png
+
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
