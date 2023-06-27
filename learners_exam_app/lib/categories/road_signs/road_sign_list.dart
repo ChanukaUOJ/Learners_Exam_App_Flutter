@@ -1,12 +1,13 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:learners_exam_app/categories/road_signs/regulatory_signs/regulatory_sign.dart';
 import 'package:learners_exam_app/categories/road_signs/road_signs_category_model.dart';
 // ignore: library_prefixes
 import 'package:flutter/services.dart' as rootBundle;
-import 'package:learners_exam_app/categories/road_signs/warning_signs/regulatory_sign.dart';
-import 'package:learners_exam_app/categories/road_signs/warning_signs/waring_signs_list.dart';
 import 'package:learners_exam_app/categories/road_signs/warning_signs/warning_signs.dart';
+
+import 'guidance_signs/guidance_signs.dart';
 
 class RoadSignList extends StatefulWidget {
   const RoadSignList({super.key});
@@ -27,6 +28,9 @@ class _RoadSignListState extends State<RoadSignList> {
 
   @override
   Widget build(BuildContext context) {
+    Widget activeList = const WarningSigns();
+    String activeListString = "1";
+
     return FutureBuilder(
       future: ReadJsonData(),
       builder: (context, data) {
@@ -46,10 +50,22 @@ class _RoadSignListState extends State<RoadSignList> {
                     color: const Color.fromARGB(255, 255, 255, 255),
                     child: ListTile(
                       onTap: () {
-                        Navigator.push(
+                        setState(() {
+                          activeListString = items[index].id.toString();
+
+                          if (activeListString == "2") {
+                            activeList = const RegulatorySign();
+                          } else if (activeListString == "3") {
+                            activeList = const GuidanceSigns();
+                          }
+
+                          Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const WarningSigns()));
+                              builder: (context) => activeList,
+                            ),
+                          );
+                        });
                       },
                       leading: Image.asset(
                         items[index].img.toString(),

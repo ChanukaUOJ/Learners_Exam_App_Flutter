@@ -1,0 +1,23 @@
+[
+    {
+        "index": "1",
+        "id": "i.s(n.h)-1",
+        "guidanceTitle": "සිතියම් වර්ගයේ පූර්ව මග පෙන්වීමේ සලකුණ හතර මංසන්ධිය",
+        "guidanceDescription": "ඉදිරියෙන් තිබෙන සිව් මංසන්ධියක සිට විහිදෙන මාර්ගයක් ඔස්සේ තිබෙන වැදගත් ගමනාන්තයන්හි නම් හා ඒවායේ අදාළ දිශාවන් දුර සහ මාර්ග අංක පෙන්නුම් කිරීම.",
+        "guidanceImg":"images/png/guidance_signs/is(nh)1.jpg"
+    },
+    {
+        "index": "2",
+        "id": "i.s(n.h)-2",
+        "guidanceTitle": "සිතියම් වර්ගයේ පූර්ව මග පෙන්වීමේ සලකුණ තුන් මංසන්ධිය",
+        "guidanceDescription": "ඉදිරියෙන් තිබෙන තුන් මංසන්ධියක සිට විහිදෙන මාර්ගයක් ඔස්සේ තිබෙන වැදගත් ගමනාන්තයන්හි නම් හා ඒවායේ අදාළ දිශාවන් දුර සහ මාර්ග අංක පෙන්නුම් කිරීම.",
+        "guidanceImg":"images/png/guidance_signs/is(nh)2.jpg"
+    },
+    {
+        "index": "3",
+        "id": "i.s(n.h)-3",
+        "guidanceTitle": "I.S(N.H)-01 ට විකල්පය",
+        "guidanceDescription": "I.S(N.H)-01 සලකුණ සන්ඳහා විකල්පය.",
+        "guidanceImg":"images/png/guidance_signs/is(nh)2.jpg"
+    }
+]

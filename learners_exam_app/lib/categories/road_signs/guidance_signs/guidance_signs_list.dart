@@ -8,25 +8,28 @@ import 'package:learners_exam_app/categories/road_signs/warning_signs/waring_sig
 
 import 'package:learners_exam_app/categories/road_signs/warning_signs/warning_signs.dart';
 
-class WarningSignList extends StatefulWidget {
-  const WarningSignList({super.key});
+import 'guidance_signs.dart';
+import 'guidance_signs_model.dart';
+
+class GuidanceSignList extends StatefulWidget {
+  const GuidanceSignList({super.key});
 
   @override
-  State<WarningSignList> createState() => _WarningSignListState();
+  State<GuidanceSignList> createState() => _GuidanceSignListState();
 }
 
-class _WarningSignListState extends State<WarningSignList> {
-  Future<List<WarningSignModel>> ReadJsonData() async {
+class _GuidanceSignListState extends State<GuidanceSignList> {
+  Future<List<GuidanceSignModel>> ReadJsonData() async {
     final jsondata = await rootBundle.rootBundle
-        .loadString("json_database/Road_signs/warning_signs.json");
+        .loadString("json_database/Road_signs/guidance_signs.json");
     final list = json.decode(jsondata) as List<dynamic>;
 
-    return list.map((e) => WarningSignModel.fromJSON(e)).toList();
+    return list.map((e) => GuidanceSignModel.fromJSON(e)).toList();
   }
 
   @override
   Widget build(BuildContext context) {
-    Widget tapScreen = const WarningSigns();
+    Widget tapScreen = const GuidanceSigns();
 
     return FutureBuilder(
       future: ReadJsonData(),
@@ -36,7 +39,7 @@ class _WarningSignListState extends State<WarningSignList> {
             child: Text("${data.error}"),
           );
         } else if (data.hasData) {
-          var items = data.data as List<WarningSignModel>;
+          var items = data.data as List<GuidanceSignModel>;
           return ListView.builder(
               itemCount: items.length,
               itemBuilder: ((context, index) => Card(
@@ -56,7 +59,7 @@ class _WarningSignListState extends State<WarningSignList> {
                         children: [
                           Container(
                             child: Image.asset(
-                              items[index].warningImg.toString(),
+                              items[index].guidanceImg.toString(),
                               width: 250,
                             ),
                           ),
@@ -72,7 +75,7 @@ class _WarningSignListState extends State<WarningSignList> {
                             height: 15,
                           ),
                           Text(
-                            items[index].warningTitle.toString(),
+                            items[index].guidanceTitle.toString(),
                             textAlign: TextAlign.center,
                             style: const TextStyle(
                               fontWeight: FontWeight.bold,
@@ -83,7 +86,7 @@ class _WarningSignListState extends State<WarningSignList> {
                             height: 15,
                           ),
                           Text(
-                            items[index].warningDescription.toString(),
+                            items[index].guidanceDescription.toString(),
                             textAlign: TextAlign.center,
                             style: const TextStyle(fontSize: 18),
                           ),

@@ -52,19 +52,6 @@ class _RoadSignBaseState extends State<RoadSignBase> {
                   color: const Color.fromARGB(255, 54, 180, 123),
                   width: MediaQuery.of(context).size.width * 1,
                   height: MediaQuery.of(context).size.height * 0.75,
-                  // decoration: const BoxDecoration(
-                  //   gradient: LinearGradient(
-                  //     colors: [
-                  //       Colors.white,
-                  //       Color.fromARGB(255, 83, 209, 153),
-                  //       Color.fromARGB(255, 24, 46, 53),
-                  //     ],
-                  //     //begin: Alignment.bottomLeft,
-                  //     //end: Alignment.topRight,
-                  //     begin: Alignment.topCenter,
-                  //     end: Alignment.bottomCenter,
-                  //   ),
-                  // ),
                 ),
               ),
             ),

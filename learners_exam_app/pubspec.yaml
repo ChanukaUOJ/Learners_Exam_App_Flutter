@@ -70,6 +70,8 @@ flutter:
     - json_database/Road_signs/road_sign_categories.json
     - json_database/Road_signs/warning_signs.json
     - json_database/Road_signs/regulatory_signs.json
+    - json_database/Road_signs/guidance_signs.json
+    - json_database/mcqAll.json
     - images/main_app_images/logoforquiz.png
     - images/main_app_images/json/firstscreen.json
     - images/png/arrowright.png
@@ -211,6 +213,18 @@ flutter:
     - images/png/regulatory_signs/phs63.png
     - images/png/regulatory_signs/phs64.png
     - images/png/regulatory_signs/phs65.png
+
+    - images/png/guidance_signs/is(nh)1.jpg
+    - images/png/guidance_signs/is(nh)2.jpg
+    - images/png/guidance_signs/is(nh)3.jpg
+    - images/png/guidance_signs/is(nh)4.jpg
+    - images/png/guidance_signs/is(nh)5.jpg
+    - images/png/guidance_signs/is(nh)6.jpg
+    - images/png/guidance_signs/is(nh)7.jpg
+    - images/png/guidance_signs/is(nh)8.jpg
+    - images/png/guidance_signs/is(nh)9.jpg
+    - images/png/guidance_signs/is(nh)10.jpg
+    - images/png/guidance_signs/is(nh)11.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

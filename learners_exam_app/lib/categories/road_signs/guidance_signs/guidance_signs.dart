@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:learners_exam_app/categories/road_signs/warning_signs/regulatory_sign_list.dart';
-
+import '../../../background.dart';
 import '../../../drawer_modified.dart';
+import 'guidance_signs_list.dart';
 
-class RegulatorySign extends StatefulWidget {
-  const RegulatorySign({super.key});
+class GuidanceSigns extends StatefulWidget {
+  const GuidanceSigns({super.key});
 
   @override
-  State<RegulatorySign> createState() => _RegulatorySignState();
+  State<GuidanceSigns> createState() => _GuidanceSignsState();
 }
 
-class _RegulatorySignState extends State<RegulatorySign> {
+class _GuidanceSignsState extends State<GuidanceSigns> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -21,15 +21,16 @@ class _RegulatorySignState extends State<RegulatorySign> {
           foregroundColor: const Color.fromARGB(255, 24, 46, 53),
           centerTitle: true,
           title: const Text(
-            "නියාමන සලකුණු",
+            "මඟපෙන්වීමී තොරතුරු සලකුණු",
             style: TextStyle(
-              fontSize: 20,
+              fontSize: 17,
               color: Color.fromARGB(255, 24, 46, 53),
               fontWeight: FontWeight.bold,
             ),
           ),
           elevation: 0,
           backgroundColor: const Color.fromARGB(255, 83, 209, 153),
+          //backgroundColor: Colors.white,
           actions: [
             IconButton(
               onPressed: () {
@@ -43,7 +44,7 @@ class _RegulatorySignState extends State<RegulatorySign> {
         ),
         body: const Padding(
           padding: EdgeInsets.all(20),
-          child: RegulatorySignList(),
+          child: GuidanceSignList(),
         ),
       ),
     );

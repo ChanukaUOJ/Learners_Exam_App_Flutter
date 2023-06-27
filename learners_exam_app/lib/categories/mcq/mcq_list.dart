@@ -1,33 +1,30 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 // ignore: library_prefixes
 import 'package:flutter/services.dart' as rootBundle;
-import 'package:learners_exam_app/categories/road_signs/warning_signs/waring_signs_model.dart';
 
-import 'package:learners_exam_app/categories/road_signs/warning_signs/warning_signs.dart';
+import 'mcq_model.dart';
 
-class WarningSignList extends StatefulWidget {
-  const WarningSignList({super.key});
+class McqList extends StatefulWidget {
+  const McqList({super.key});
 
   @override
-  State<WarningSignList> createState() => _WarningSignListState();
+  State<McqList> createState() => _McqListState();
 }
 
-class _WarningSignListState extends State<WarningSignList> {
-  Future<List<WarningSignModel>> ReadJsonData() async {
-    final jsondata = await rootBundle.rootBundle
-        .loadString("json_database/Road_signs/warning_signs.json");
+class _McqListState extends State<McqList> {
+  // ignore: non_constant_identifier_names
+  Future<List<McqModel>> ReadJsonData() async {
+    final jsondata =
+        await rootBundle.rootBundle.loadString("json_database/mcqAll.json");
     final list = json.decode(jsondata) as List<dynamic>;
 
-    return list.map((e) => WarningSignModel.fromJSON(e)).toList();
+    return list.map((e) => McqModel.fromJSON(e)).toList();
   }
 
   @override
   Widget build(BuildContext context) {
-    Widget tapScreen = const WarningSigns();
-
     return FutureBuilder(
       future: ReadJsonData(),
       builder: (context, data) {
@@ -36,7 +33,7 @@ class _WarningSignListState extends State<WarningSignList> {
             child: Text("${data.error}"),
           );
         } else if (data.hasData) {
-          var items = data.data as List<WarningSignModel>;
+          var items = data.data as List<McqModel>;
           return ListView.builder(
               itemCount: items.length,
               itemBuilder: ((context, index) => Card(
@@ -54,14 +51,8 @@ class _WarningSignListState extends State<WarningSignList> {
                       ),
                       child: Column(
                         children: [
-                          Container(
-                            child: Image.asset(
-                              items[index].warningImg.toString(),
-                              width: 250,
-                            ),
-                          ),
                           Text(
-                            items[index].id.toString(),
+                            items[index].mcqIndex.toString(),
                             textAlign: TextAlign.center,
                             style: const TextStyle(
                               fontWeight: FontWeight.bold,
@@ -72,7 +63,7 @@ class _WarningSignListState extends State<WarningSignList> {
                             height: 15,
                           ),
                           Text(
-                            items[index].warningTitle.toString(),
+                            items[index].mcqTitle.toString(),
                             textAlign: TextAlign.center,
                             style: const TextStyle(
                               fontWeight: FontWeight.bold,
@@ -82,11 +73,11 @@ class _WarningSignListState extends State<WarningSignList> {
                           const SizedBox(
                             height: 15,
                           ),
-                          Text(
-                            items[index].warningDescription.toString(),
-                            textAlign: TextAlign.center,
-                            style: const TextStyle(fontSize: 18),
-                          ),
+                          // Text(
+                          //   items[index].mcqAnswer.toString(),
+                          //   textAlign: TextAlign.center,
+                          //   style: const TextStyle(fontSize: 18),
+                          // ),
                         ],
                       ),
                     ),

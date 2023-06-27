@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:learners_exam_app/categories/road_signs/road_sign_list.dart';
 
 class SubCategoryModel extends StatelessWidget {
   const SubCategoryModel(

@@ -2,9 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart' as rootBundle;
 import 'package:flutter/material.dart';
-
-import 'package:learners_exam_app/categories/road_signs/warning_signs/regulatory_sign.dart';
-import 'package:learners_exam_app/categories/road_signs/warning_signs/regulatory_sign_model.dart';
+import 'package:learners_exam_app/categories/road_signs/regulatory_signs/regulatory_sign_model.dart';
 
 class RegulatorySignList extends StatefulWidget {
   const RegulatorySignList({super.key});
@@ -44,13 +42,17 @@ class _RegulatorySignListState extends State<RegulatorySignList> {
                     color: const Color.fromARGB(255, 255, 238, 177),
                     child: Padding(
                       padding: const EdgeInsets.only(
-                          top: 5, bottom: 15, left: 15, right: 15),
+                        top: 15,
+                        bottom: 25,
+                        left: 15,
+                        right: 15,
+                      ),
                       child: Column(
                         children: [
                           Container(
                             child: Image.asset(
                               items[index].regulatoryImg.toString(),
-                              width: 150,
+                              width: 250,
                             ),
                           ),
                           Text(
@@ -58,26 +60,27 @@ class _RegulatorySignListState extends State<RegulatorySignList> {
                             textAlign: TextAlign.center,
                             style: const TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 20,
+                              fontSize: 22,
                             ),
                           ),
                           const SizedBox(
-                            height: 10,
+                            height: 15,
                           ),
                           Text(
                             items[index].regulatoryTitle.toString(),
                             textAlign: TextAlign.center,
                             style: const TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 17,
+                              fontSize: 19,
                             ),
                           ),
                           const SizedBox(
-                            height: 10,
+                            height: 15,
                           ),
                           Text(
                             items[index].regulatoryDescription.toString(),
                             textAlign: TextAlign.center,
+                            style: const TextStyle(fontSize: 18),
                           ),
                         ],
                       ),

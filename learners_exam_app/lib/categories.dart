@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:learners_exam_app/categories/mcq/mcq.dart';
 import 'package:learners_exam_app/categories/road_signs/road_signs_base.dart';
 import 'package:learners_exam_app/categorymodel.dart';
 import 'package:learners_exam_app/elevated_button.dart';
@@ -22,8 +23,8 @@ class _CategoriesState extends State<Categories> {
 
     return Center(
       child: Column(
-        //mainAxisSize: MainAxisSize.min,
-        // /mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.min,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
             "Categories",
@@ -64,7 +65,14 @@ class _CategoriesState extends State<Categories> {
                   ),
                 ),
                 InkWell(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const Mcq(),
+                      ),
+                    );
+                  },
                   child: const Categorymodel(
                     img: 'images/png/pen.png',
                     textEnglish: "MCQ",
@@ -98,8 +106,8 @@ class _CategoriesState extends State<Categories> {
             moveBack: back,
           ),
           const SizedBox(
-            height: 100,
-          ),
+            height: 50,
+          )
         ],
       ),
     );
