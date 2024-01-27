@@ -16,14 +16,12 @@ class Categorymodel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      semanticContainer: true,
-      clipBehavior: Clip.antiAliasWithSaveLayer,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(25.0),
-      ),
-      elevation: 10,
-      color: color,
+    return Container(
+      width: 190,
+      height: 190,
+      margin: const EdgeInsets.all(5.0),
+      decoration: BoxDecoration(
+          color: Colors.white, borderRadius: BorderRadius.circular(10.0)),
       child: Padding(
         padding: const EdgeInsets.all(15.0),
         child: Column(

@@ -1,13 +1,10 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:learners_exam_app/categories/road_signs/regulatory_signs/regulatory_sign.dart';
+import 'package:learners_exam_app/categories/fetching_road_sign_lists/signs_list.dart';
 import 'package:learners_exam_app/categories/road_signs/road_signs_category_model.dart';
 // ignore: library_prefixes
 import 'package:flutter/services.dart' as rootBundle;
-import 'package:learners_exam_app/categories/road_signs/warning_signs/warning_signs.dart';
-
-import 'guidance_signs/guidance_signs.dart';
 
 class RoadSignList extends StatefulWidget {
   const RoadSignList({super.key});
@@ -28,8 +25,10 @@ class _RoadSignListState extends State<RoadSignList> {
 
   @override
   Widget build(BuildContext context) {
-    Widget activeList = const WarningSigns();
-    String activeListString = "1";
+    Widget activeList = const SignList(
+      listName: "",
+    );
+    String activeListString = "";
 
     return FutureBuilder(
       future: ReadJsonData(),
@@ -44,39 +43,76 @@ class _RoadSignListState extends State<RoadSignList> {
               itemCount: items.length,
               itemBuilder: ((context, index) => Card(
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(25.0),
+                      borderRadius: BorderRadius.circular(15.0),
                     ),
-                    elevation: 5,
+                    elevation: 0,
                     color: const Color.fromARGB(255, 255, 255, 255),
-                    child: ListTile(
-                      onTap: () {
-                        setState(() {
-                          activeListString = items[index].id.toString();
-
-                          if (activeListString == "2") {
-                            activeList = const RegulatorySign();
-                          } else if (activeListString == "3") {
-                            activeList = const GuidanceSigns();
-                          }
-
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => activeList,
-                            ),
-                          );
-                        });
-                      },
-                      leading: Image.asset(
-                        items[index].img.toString(),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                            color: const Color.fromARGB(255, 2, 1, 34)
+                                .withOpacity(0.75),
+                            width: 1.25),
+                        borderRadius: const BorderRadius.all(
+                          Radius.circular(15.0),
+                        ),
                       ),
-                      title: Text(
-                        items[index].title.toString(),
-                        style: const TextStyle(fontWeight: FontWeight.bold),
-                      ),
-                      trailing: const Icon(
-                        Icons.arrow_circle_right,
-                        color: Color.fromARGB(190, 24, 46, 53),
+                      child: ListTile(
+                        onTap: () {
+                          setState(() {
+                            activeListString = items[index].id.toString();
+                            if (activeListString == "1") {
+                              activeList = const SignList(
+                                listName: "warning_signs",
+                              );
+                            } else if (activeListString == "2") {
+                              activeList = const SignList(
+                                listName: "regulatory_signs",
+                              );
+                            } else if (activeListString == "3") {
+                              activeList = const SignList(
+                                listName: "guidance_signs",
+                              );
+                            } else if (activeListString == "4") {
+                              activeList = const SignList(
+                                listName: "various_signs",
+                              );
+                            } else if (activeListString == "5") {
+                              activeList = const SignList(
+                                listName: "roadmark_signs",
+                              );
+                            } else if (activeListString == "6") {
+                              activeList = const SignList(
+                                listName: "traffic_light_signs",
+                              );
+                            } else if (activeListString == "7") {
+                              activeList = const SignList(
+                                listName: "vehicle_control_signs",
+                              );
+                            } else if (activeListString == "8") {
+                              activeList = const SignList(
+                                listName: "other_signs",
+                              );
+                            }
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => activeList,
+                              ),
+                            );
+                          });
+                        },
+                        leading: Image.asset(
+                          items[index].img.toString(),
+                        ),
+                        title: Text(
+                          items[index].title.toString(),
+                          style: const TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        trailing: const Icon(
+                          Icons.arrow_circle_right,
+                          color: Color.fromARGB(190, 24, 46, 53),
+                        ),
                       ),
                     ),
                   )));

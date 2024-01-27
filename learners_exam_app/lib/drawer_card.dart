@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:learners_exam_app/categories/road_signs/road_signs_base.dart';
 
 class DrawerCard extends StatelessWidget {
   const DrawerCard(

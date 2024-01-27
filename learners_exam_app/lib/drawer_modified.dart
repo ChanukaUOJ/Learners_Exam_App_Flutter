@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:learners_exam_app/categories/road_signs/road_signs_base.dart';
 import 'package:url_launcher/url_launcher.dart';
-
 import 'drawer_card.dart';
 
 class DrawerModified extends StatefulWidget {
@@ -13,8 +12,10 @@ class DrawerModified extends StatefulWidget {
 }
 
 class _DrawerModifiedState extends State<DrawerModified> {
-  var url = Uri.parse(
-      'https://play.google.com/store/apps/details?id=com.appblee.rolldicesimple&hl=en&gl=US');
+  final Uri privacyPolicyUrl = Uri.parse(
+      'https://fiverrchamiyah.blogspot.com/p/driving-license-exam-app-sri-lanka.html');
+  final Uri termsandConditionUrl = Uri.parse(
+      'https://fiverrchamiyah.blogspot.com/p/driving-license-exam-app-sri-lanka_27.html');
 
   @override
   Widget build(BuildContext context) {
@@ -58,27 +59,13 @@ class _DrawerModifiedState extends State<DrawerModified> {
             color: Colors.white,
             screen: RoadSignBase(),
           ),
-          const DrawerCard(
-            img: "images/png/pen.png",
-            title: "MCQ",
-            subtitle: "(බහුවරණ ප්‍රශ්ණ)",
-            color: Colors.white,
-            screen: RoadSignBase(),
-          ),
-          const DrawerCard(
-            img: "images/png/modelpapers.png",
-            title: "Model Papers",
-            subtitle: "(ආදර්ශ ප්‍රශ්ණ)",
-            color: Colors.white,
-            screen: RoadSignBase(),
-          ),
-          const DrawerCard(
-            img: "images/png/supportus.png",
-            title: "Support Us!",
-            subtitle: "(උදව් කරන්න)",
-            color: Color.fromARGB(255, 255, 238, 177),
-            screen: RoadSignBase(),
-          ),
+          // const DrawerCard(
+          //   img: "images/png/pen.png",
+          //   title: "MCQ",
+          //   subtitle: "(බහුවරණ ප්‍රශ්ණ)",
+          //   color: Colors.white,
+          //   screen: RoadSignBase(),
+          // ),
           const SizedBox(
             height: 30,
           ),
@@ -88,22 +75,46 @@ class _DrawerModifiedState extends State<DrawerModified> {
             indent: 50,
             color: Color.fromARGB(50, 24, 46, 53),
           ),
+
+          const SizedBox(
+            height: 30,
+          ),
           Image.asset(
-            "images/main_app_images/logoforquiz.png",
-            width: 80,
+            "images/main_app_images/beelogo.png",
+            width: 50,
+          ),
+          const SizedBox(
+            height: 10,
+          ),
+          InkWell(
+            onTap: () => launchUrl(privacyPolicyUrl),
+            child: const Text(
+              "Privacy Policy",
+              style: TextStyle(color: Colors.blue),
+            ),
+          ),
+          const SizedBox(
+            height: 5,
+          ),
+
+          InkWell(
+            onTap: () => launchUrl(termsandConditionUrl),
+            child: const Text(
+              "Terms and Conditions",
+              style: TextStyle(color: Colors.blue),
+            ),
+          ),
+          const SizedBox(
+            height: 10,
           ),
           const Text(
-            "2023",
-            style: TextStyle(fontSize: 20),
+            "Copyright @ 2024 Appsblee",
+            style: TextStyle(fontSize: 13),
           ),
-          Center(
-            child: GestureDetector(
-              onTap: () {
-                launchUrl(url);
-              },
-              child: const Text("Roll Dice"),
-            ),
-          )
+          const Text(
+            "All Rights Reserved",
+            style: TextStyle(fontSize: 13),
+          ),
         ],
       ),
     );

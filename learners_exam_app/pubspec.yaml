@@ -42,6 +42,10 @@ dependencies:
   url_launcher: ^6.1.11
   device_preview: ^1.1.0
   http: ^1.0.0
+  google_mobile_ads: ^4.0.0
+  provider: ^6.1.1
+  connectivity_plus: ^5.0.2
+  
 
 dev_dependencies:
   flutter_test:
@@ -52,7 +56,14 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+  change_app_package_name: ^1.1.0
+
+flutter_icons:
+  android: "logo"
+  ios: true
+  image_path: "images/main_app_images/logo.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -71,8 +82,14 @@ flutter:
     - json_database/Road_signs/warning_signs.json
     - json_database/Road_signs/regulatory_signs.json
     - json_database/Road_signs/guidance_signs.json
+    - json_database/Road_signs/various_signs.json
+    - json_database/Road_signs/roadmark_signs.json
+    - json_database/Road_signs/other_signs.json
+    - json_database/Road_signs/vehicle_control_signs.json
+    - json_database/Road_signs/traffic_light_signs.json
     - json_database/mcqAll.json
-    - images/main_app_images/logoforquiz.png
+
+    - images/main_app_images/beelogo.png
     - images/main_app_images/json/firstscreen.json
     - images/png/arrowright.png
     - images/png/bridge.png
@@ -225,6 +242,182 @@ flutter:
     - images/png/guidance_signs/is(nh)9.jpg
     - images/png/guidance_signs/is(nh)10.jpg
     - images/png/guidance_signs/is(nh)11.jpg
+    - images/png/guidance_signs/is(pr)1.jpg
+    - images/png/guidance_signs/is(pr)2.jpg
+    - images/png/guidance_signs/is(pr)3.jpg
+    - images/png/guidance_signs/is(pr)4.jpg
+    - images/png/guidance_signs/is(pr)5.jpg
+    - images/png/guidance_signs/is(ex)1.jpg
+    - images/png/guidance_signs/is(ex)2.jpg
+    - images/png/guidance_signs/is(ex)3.jpg
+    - images/png/guidance_signs/is(ex)4.jpg
+    - images/png/guidance_signs/is(ex)5.jpg
+    - images/png/guidance_signs/is(ex)6.jpg
+    - images/png/guidance_signs/is(ex)7.jpg
+    - images/png/guidance_signs/ods1.jpg
+    - images/png/guidance_signs/ods2.jpg
+    - images/png/guidance_signs/ods3.jpg
+    - images/png/guidance_signs/ods4.jpg
+    - images/png/guidance_signs/ods5.jpg
+    - images/png/guidance_signs/ods6.jpg
+    - images/png/guidance_signs/ods7.jpg
+    - images/png/guidance_signs/ods8.jpg
+    - images/png/guidance_signs/ods9.jpg
+    - images/png/guidance_signs/ods10.jpg
+    - images/png/guidance_signs/ods11.jpg
+    - images/png/guidance_signs/ods12.jpg
+    - images/png/guidance_signs/ods13.jpg
+    - images/png/guidance_signs/ods14.jpg
+    - images/png/guidance_signs/ods15.jpg
+    - images/png/guidance_signs/ods16.jpg
+    - images/png/guidance_signs/ods17.jpg
+    - images/png/guidance_signs/ods18.jpg
+    - images/png/guidance_signs/ods19.jpg
+    - images/png/guidance_signs/ods20.jpg
+    - images/png/guidance_signs/ods21.jpg
+    - images/png/guidance_signs/ods22.jpg
+    - images/png/guidance_signs/ods23.jpg
+    - images/png/guidance_signs/ods24.jpg
+    - images/png/guidance_signs/ods25.jpg
+
+    - images/png/guidance_signs/rns1.jpg
+    - images/png/guidance_signs/rns2.jpg
+    - images/png/guidance_signs/rns3.jpg
+    - images/png/guidance_signs/rns4.jpg
+    - images/png/guidance_signs/api1.jpg
+    - images/png/guidance_signs/api2.jpg
+    - images/png/guidance_signs/api3.jpg
+
+    - images/png/various_signs/ms1.jpg
+    - images/png/various_signs/ms2.jpg
+    - images/png/various_signs/ms3.jpg
+    - images/png/various_signs/ms4.jpg
+    - images/png/various_signs/ms5.jpg
+    - images/png/various_signs/ms6.jpg
+    - images/png/various_signs/ms7.jpg
+    - images/png/various_signs/ms8.jpg
+    - images/png/various_signs/ms9.jpg
+    - images/png/various_signs/ms10.jpg
+    - images/png/various_signs/ms11.jpg
+    - images/png/various_signs/ms12.jpg
+    - images/png/various_signs/ms13.jpg
+    - images/png/various_signs/ms14.jpg
+    - images/png/various_signs/ms15.jpg
+    - images/png/various_signs/ms16.jpg
+    - images/png/various_signs/ms17.jpg
+    - images/png/various_signs/ms18.jpg
+    - images/png/various_signs/ms19.jpg
+    - images/png/various_signs/ms20.jpg
+
+    - images/png/roadmark_signs/rm1.jpg
+    - images/png/roadmark_signs/rm2.jpg
+    - images/png/roadmark_signs/rm3.jpg
+    - images/png/roadmark_signs/rm4.jpg
+    - images/png/roadmark_signs/rm5.jpg
+    - images/png/roadmark_signs/rm6.jpg
+    - images/png/roadmark_signs/rm7.jpg
+    - images/png/roadmark_signs/rm8.jpg
+    - images/png/roadmark_signs/rm9.jpg
+    - images/png/roadmark_signs/rm10.jpg
+    - images/png/roadmark_signs/rm11.jpg
+    - images/png/roadmark_signs/rm12.jpg
+    - images/png/roadmark_signs/rm13.jpg
+    - images/png/roadmark_signs/rm14.jpg
+    - images/png/roadmark_signs/rm15.jpg
+    - images/png/roadmark_signs/rm16.jpg
+    - images/png/roadmark_signs/rm17.jpg
+    - images/png/roadmark_signs/rm18.jpg
+    - images/png/roadmark_signs/rm19.jpg
+    - images/png/roadmark_signs/rm20.jpg
+    - images/png/roadmark_signs/rm21.jpg
+    - images/png/roadmark_signs/rm22.jpg
+    - images/png/roadmark_signs/rm23.jpg
+    - images/png/roadmark_signs/rm24.jpg
+    - images/png/roadmark_signs/rm25.jpg
+    - images/png/roadmark_signs/rm26.jpg
+    - images/png/roadmark_signs/rm27.jpg
+    - images/png/roadmark_signs/rm28.jpg
+    - images/png/roadmark_signs/rm29.jpg
+    - images/png/roadmark_signs/rm30.jpg
+    - images/png/roadmark_signs/rm31.jpg
+    - images/png/roadmark_signs/rm32.jpg
+    - images/png/roadmark_signs/rm33.jpg
+    - images/png/roadmark_signs/rm34.jpg
+    - images/png/roadmark_signs/rm35.jpg
+    - images/png/roadmark_signs/rm36.jpg
+    - images/png/roadmark_signs/rm37.jpg
+    - images/png/roadmark_signs/rm38.jpg
+    - images/png/roadmark_signs/rm39.jpg
+    - images/png/roadmark_signs/rm40.jpg
+    - images/png/roadmark_signs/rm41.jpg
+    - images/png/roadmark_signs/rm42.jpg
+    - images/png/roadmark_signs/rm43.jpg
+    - images/png/roadmark_signs/rm44.jpg
+    - images/png/roadmark_signs/rm45.jpg
+    - images/png/roadmark_signs/rm46.jpg
+    - images/png/roadmark_signs/rm47.jpg
+    - images/png/roadmark_signs/rm48.jpg
+    - images/png/roadmark_signs/rm49.jpg
+    - images/png/roadmark_signs/rm50.jpg
+    - images/png/roadmark_signs/rm51.jpg
+    - images/png/roadmark_signs/rm52.jpg
+    - images/png/roadmark_signs/rm53.jpg
+    - images/png/roadmark_signs/rm54.jpg
+
+    - images/png/other_signs/hwp1.png
+    - images/png/other_signs/hwp2.png
+    - images/png/other_signs/hwp3.png
+    - images/png/other_signs/hwp4.png
+    - images/png/other_signs/hwp5.png
+    - images/png/other_signs/hwp6.png
+    - images/png/other_signs/hwp7.png
+    - images/png/other_signs/hwp8.png
+    - images/png/other_signs/hwp9.png
+
+    - images/png/vehicle_control_signs/hsp1.png
+    - images/png/vehicle_control_signs/hsp2.png
+    - images/png/vehicle_control_signs/hsp3.png
+    - images/png/vehicle_control_signs/hsp4.png
+    - images/png/vehicle_control_signs/hsp5.png
+    - images/png/vehicle_control_signs/hsp6.png
+    - images/png/vehicle_control_signs/sdr1.jpg
+    - images/png/vehicle_control_signs/sdr2.jpg
+    - images/png/vehicle_control_signs/sdr3.jpg
+    - images/png/vehicle_control_signs/dis1.jpg
+    - images/png/vehicle_control_signs/dis2.jpg
+    - images/png/vehicle_control_signs/dis3.jpg
+
+    - images/png/traffic_light_signs/aps1.jpg
+    - images/png/traffic_light_signs/aps2.jpg
+    - images/png/traffic_light_signs/aps3.jpg
+    - images/png/traffic_light_signs/aps4.jpg
+    - images/png/traffic_light_signs/aps5.jpg
+    - images/png/traffic_light_signs/gap1.jpg
+    - images/png/traffic_light_signs/gap2.jpg
+    - images/png/traffic_light_signs/gap3.jpg
+    - images/png/traffic_light_signs/gap4.jpg
+    - images/png/traffic_light_signs/gap5.jpg
+    - images/png/traffic_light_signs/gap6.jpg
+    - images/png/traffic_light_signs/gap7.jpg
+    - images/png/traffic_light_signs/gap8.jpg
+    - images/png/traffic_light_signs/gap9.jpg
+    - images/png/traffic_light_signs/gap10.jpg
+    - images/png/traffic_light_signs/gap11.jpg
+    - images/png/traffic_light_signs/gap12.jpg
+    - images/png/traffic_light_signs/lsp1.jpg
+    - images/png/traffic_light_signs/lsp2.jpg
+    - images/png/traffic_light_signs/lsp3.jpg
+    - images/png/traffic_light_signs/oms1.png
+    - images/png/traffic_light_signs/oms2.png
+    - images/png/traffic_light_signs/pdv1.jpg
+    - images/png/traffic_light_signs/pdv2.jpg
+    - images/png/traffic_light_signs/pdv3.jpg
+    - images/png/traffic_light_signs/pdv4.jpg
+    - images/png/traffic_light_signs/pdv5.jpg
+    - images/png/traffic_light_signs/pdv6.jpg
+    - images/png/traffic_light_signs/pdv7.jpg
+    - images/png/traffic_light_signs/pdv8.jpg
+    - images/png/traffic_light_signs/pdv9.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
